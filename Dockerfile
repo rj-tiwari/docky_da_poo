@@ -19,4 +19,5 @@ COPY gram_schmidt_process.py .
 EXPOSE 2718
 
 # Run the notebook
-CMD ["uv", "run", "marimo", "run", "gram_schmidt_process.py", "--host", "localhost", "--port", "2718"]
+CMD ["uv", "run", "marimo", "run", "gram_schmidt_process.py", "--host", "0.0.0.0", "--port", "2718"]
+
